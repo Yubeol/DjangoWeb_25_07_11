@@ -12,11 +12,11 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.RenameIndex(
-            model_name="comment",
-            new_name="blog_commen_created_0e6ed4_idx",
-            old_name="blog_comment_created_0e6ed4_idx",
-        ),
+        # migrations.RenameIndex(
+        #     model_name="comment",
+        #     new_name="blog_commen_created_0e6ed4_idx",
+        #     old_name="blog_comment_created_0e6ed4_idx",
+        # ),
         migrations.AddField(
             model_name="post",
             name="tags",
